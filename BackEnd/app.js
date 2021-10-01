@@ -7,9 +7,9 @@ const port = B1998;
 const mongoDbUrl = "mongodb+srv://MonkAno:MonkAno@cluster0.cfvup.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 
-// app.get('/', (req, res) => {
-//     res.send("The Request Page Not Found")
-// })
+app.get('/', (req, res) => {
+    res.send("The Request Page Not Found")
+})
 app.get('/insert', (req, res) => {
 
     let name = req.query.name
